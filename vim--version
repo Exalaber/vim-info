@@ -1,0 +1,43 @@
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Mar 07 2017 03:33:23)
+Included patches: 1-197, 322, 377-378
+Modified by pkg-vim-maintainers@lists.alioth.debian.org
+Compiled by pkg-vim-maintainers@lists.alioth.debian.org
+Huge version without GUI.  Features included (+) or not (-):
++acl             +file_in_path    +mouse_sgr       +tag_old_static
++arabic          +find_in_path    -mouse_sysmouse  -tag_any_white
++autocmd         +float           +mouse_urxvt     +tcl
+-balloon_eval    +folding         +mouse_xterm     +termguicolors
+-browse          -footer          +multi_byte      +terminfo
+++builtin_terms  +fork()          +multi_lang      +termresponse
++byte_offset     +gettext         -mzscheme        +textobjects
++channel         -hangul_input    +netbeans_intg   +timers
++cindent         +iconv           +num64           +title
+-clientserver    +insert_expand   +packages        -toolbar
+-clipboard       +job             +path_extra      +user_commands
++cmdline_compl   +jumplist        +perl            +vertsplit
++cmdline_hist    +keymap          +persistent_undo +virtualedit
++cmdline_info    +lambda          +postscript      +visual
++comments        +langmap         +printer         +visualextra
++conceal         +libcall         +profile         +viminfo
++cryptv          +linebreak       -python          +vreplace
++cscope          +lispindent      +python3         +wildignore
++cursorbind      +listcmds        +quickfix        +wildmenu
++cursorshape     +localmap        +reltime         +windows
++dialog_con      +lua             +rightleft       +writebackup
++diff            +menu            +ruby            -X11
++digraphs        +mksession       +scrollbind      -xfontset
+-dnd             +modify_fname    +signs           -xim
+-ebcdic          +mouse           +smartindent     -xpm
++emacs_tags      -mouseshape      +startuptime     -xsmp
++eval            +mouse_dec       +statusline      -xterm_clipboard
++ex_extra        +mouse_gpm       -sun_workshop    -xterm_save
++extra_search    -mouse_jsbterm   +syntax          
++farsi           +mouse_netterm   +tag_binary      
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H   -Wdate-time  -g -O2 -fdebug-prefix-map=/build/vim-yUSlYU/vim-8.0.0197=. -fstack-protector-strong -Wformat -Werror=format-security -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1       
+Linking: gcc   -L. -Wl,-z,relro -Wl,-z,now -fstack-protector -rdynamic -Wl,-export-dynamic -Wl,-E  -Wl,-z,relro -Wl,-z,now -Wl,--as-needed -o vim        -lm -ltinfo -lnsl  -lselinux  -lacl -lattr -lgpm -ldl  -L/usr/lib -llua5.2 -Wl,-E  -fstack-protector-strong -L/usr/local/lib  -L/usr/lib/x86_64-linux-gnu/perl/5.24/CORE -lperl -ldl -lm -lpthread -lcrypt  -L/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu -lpython3.5m -lpthread -ldl -lutil -lm -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -ldl -lz -lpthread -lieee -lm -lruby-2.3 -lpthread -lgmp -ldl -lcrypt -lm 
